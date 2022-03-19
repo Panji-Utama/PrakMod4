@@ -1,0 +1,8 @@
+C:\Users\Panji\Documents\VS Community things\JurnalMod4\PrakMod4\modul4_1302200089\modul4_1302200089\bin\Debug\modul4_1302200089.exe.config
+C:\Users\Panji\Documents\VS Community things\JurnalMod4\PrakMod4\modul4_1302200089\modul4_1302200089\bin\Debug\modul4_1302200089.exe
+C:\Users\Panji\Documents\VS Community things\JurnalMod4\PrakMod4\modul4_1302200089\modul4_1302200089\bin\Debug\modul4_1302200089.pdb
+C:\Users\Panji\Documents\VS Community things\JurnalMod4\PrakMod4\modul4_1302200089\modul4_1302200089\obj\Debug\modul4_1302200089.csproj.AssemblyReference.cache
+C:\Users\Panji\Documents\VS Community things\JurnalMod4\PrakMod4\modul4_1302200089\modul4_1302200089\obj\Debug\modul4_1302200089.csproj.SuggestedBindingRedirects.cache
+C:\Users\Panji\Documents\VS Community things\JurnalMod4\PrakMod4\modul4_1302200089\modul4_1302200089\obj\Debug\modul4_1302200089.csproj.CoreCompileInputs.cache
+C:\Users\Panji\Documents\VS Community things\JurnalMod4\PrakMod4\modul4_1302200089\modul4_1302200089\obj\Debug\modul4_1302200089.exe
+C:\Users\Panji\Documents\VS Community things\JurnalMod4\PrakMod4\modul4_1302200089\modul4_1302200089\obj\Debug\modul4_1302200089.pdb
