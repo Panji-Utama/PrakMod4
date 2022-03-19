@@ -10,7 +10,18 @@ namespace modul4_1302200089
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Penjumlahan.JumlahTigaAngka<long>(13, 02, 20));
+            //NIM : 1302200089
+            Console.WriteLine("Hasil Penjumlahan 3 angka: " + Penjumlahan.JumlahTigaAngka<long>(13, 02, 20));
+
+            Console.WriteLine("\n");
+
+            SimpleDataBase<long> simpleData = new SimpleDataBase<long>();
+            simpleData.AddNewData(13);
+            simpleData.AddNewData(02);
+            simpleData.AddNewData(20);
+
+
+            simpleData.PrintData();
         }
     }
 
@@ -25,4 +36,33 @@ namespace modul4_1302200089
             return A + B + C;
         }
     }
+
+    class SimpleDataBase<T>
+    {
+        private List<T> storedData;
+        private List<DateTime> inputDates; 
+        public SimpleDataBase()
+        {
+            this.storedData = new List<T>();
+            inputDates = new List<DateTime>();
+        }
+
+        public void AddNewData(T x)
+        {
+            storedData.Add(x);
+            inputDates.Add(DateTime.UtcNow);
+        }
+
+        public void PrintData()
+        {
+            int panjang = storedData.Count;
+            for (int i = 0; i < panjang; i++)
+            {
+                Console.WriteLine("Data " + (i+1) + " berisi : " + storedData[i] + ", yang disimpan pada waktu UTC: " + inputDates[i]);
+            }
+
+        }
+    }
+
+
 }
